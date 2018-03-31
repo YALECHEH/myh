@@ -1,0 +1,329 @@
+.homePageBody{
+  background: #f3f5fe;
+  margin-top: 100px;
+}
+
+//头部部分
+.Navigation{
+  background: #FFFFFF;
+  border: 0 solid #FFFFFF;
+  height: 100px;
+  width: 750px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  border-bottom: 1px solid #D4D4D4;/*no*/
+  .search{
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    /*justify-content: flex-start;*/
+    align-items: center;
+    img{
+      width: 36px;
+      height: 36px;
+      margin-left: 30px;
+    }
+  }
+  .logoImg{
+    flex: 2;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    img{
+      height: 88px;
+      width: 129px;
+    }
+  }
+  .shoppingCart{
+    flex: 1;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: center;
+    img{
+      width: 36px;
+      height: 36px;
+      margin-right: 30px;
+    }
+  }
+  .homePageOrder{
+    flex: 1;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: center;
+    img{
+      height: 36px;
+      width: 36px;
+      margin-right: 30px;
+    }
+  }
+}
+//首页封面图
+.cover{
+  height: 746px;
+  width: 750px;
+  img{
+    height: 746px;
+    width: 750px;
+  }
+}
+//分类名称模块
+.commodity{
+  background: #f3f5fe;
+  height: auto;
+  width: 750px;
+}
+.commodityType{
+  height: 130px;
+  width: 750px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .cTypeCName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+    span{
+      font-family: PingFangSC-Light;
+      font-size: 28px;
+      color: #1B1B20;
+      letter-spacing: 0.65px;
+    }
+    .typeLeft{
+      margin-right: 55px;
+      height: 9px;
+      width: 111px;
+    }
+    .typeRight{
+      margin-left: 55px;
+      height: 9px;
+      width: 111px;
+    }
+  }
+  .cTypeEName{
+    span{
+      font-family: PingFangSC-Light;
+      font-size: 24px;
+      color: #919191;
+      line-height: 35px;
+    }
+  }
+}
+//帽子左右滑动模块
+.hatList{
+  width: 750px;
+  overflow-x:scroll;
+  overflow-y: hidden;
+  height: 1044px;
+  .hatListBodyLeft{
+    margin-left: 10px;
+  }
+  .hatListBody{
+    display: flex;
+    flex-direction: row;
+    //  margin-left: 10px;
+    .hatGroup{
+      display: table;
+      width: 722px;
+      position: relative;
+     // margin-left: 10px;
+    }
+    .hatGroupBag{
+      display: table;
+      width: 750px;
+      position: relative;
+    }
+    .hatGroupViewMore{
+      display: table;
+      width: 361px;
+      position: relative;
+    }
+  }
+}
+//帽子左右滑动模块少于2个
+.hatListTow{
+  width: 750px;
+  overflow-x:scroll;
+  overflow-y: hidden;
+  height: 522px;
+  .hatListBodyLeft{
+    margin-left: 10px;
+  }
+  .hatListBody{
+    display: flex;
+    flex-direction: row;
+    //  margin-left: 10px;
+    .hatGroup{
+      display: table;
+      width: 722px;
+      position: relative;
+      // margin-left: 10px;
+    }
+    .hatGroupBag{
+      display: table;
+      width: 750px;
+      position: relative;
+    }
+    .hatGroupViewMore{
+      display: table;
+      width: 361px;
+      position: relative;
+    }
+  }
+}
+
+//首页单个商品类型
+.hatBody{
+  width: 350px;
+  height: 510px;
+  background: #FFFFFF;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: left;
+  .soldOutImg{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    right: 30px;
+    top: 260px;
+  }
+  .hatImg{
+    width: 350px;
+    height: 350px;
+  }
+  .hatAttribute{
+    width: 350px;
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+    .hatName{
+      width: 350px;
+      text-align: center;
+      font-family: PingFangSC-Regular;
+      font-size: 26px;/*px*/
+      color: #1B1B20;
+      letter-spacing: -1.05px;
+      margin-top: 42px;
+    }
+    .hatUnitPrice{
+      width: 350px;
+      text-align: center;
+      font-family: PingFang-SC-Medium;
+      font-size: 26px;/*px*/
+      color: #FE007E;
+      letter-spacing: 0;
+      margin-top: 12px;
+    }
+  }
+}
+//查看更多
+.ViewMoreBody{
+  width: 350px;
+  height: 510px;
+  background: #FFFFFF;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: left;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .viewMore{
+    text-align: center;
+    img{
+      height: 60px;
+      width: 60px;
+    }
+    .viewMoreText{
+      margin-top: 44px;
+      font-family:PingFangSC-Regular;
+      font-size: 22px;/*px*/
+      color: #666666;
+      letter-spacing: 1.05px;
+    }
+  }
+}
+
+.carousel{
+  width: 750px;
+  height: 560px;
+  img{
+    width: 750px;
+    height: 560px;
+  }
+  .am-carousel-wrap-dot{
+   // background: #ff0000;
+    span{
+      background: transparent;
+      border: 1px solid #FFFFFF;
+      height: 14px;
+      width: 14px;
+      border-radius: 50%;
+    }
+  }
+  .am-carousel-wrap{
+    margin-bottom: 20px;
+  }
+  .am-carousel-wrap-dot-active{
+    span{
+      background: #FFFFFF;
+    }
+  }
+}
+.homePageListView{
+  padding: 0;
+  .am-list-header{
+    padding: 0;
+    border: 0;
+  }
+  .am-list-body:after {
+    border-bottom: 0px solid #ddd;
+    top: 0;
+  }
+  .am-list-body{
+    border: 0;
+    display: table;
+    background: #F4f6fe;
+    // margin-top: -10px;
+  }
+  .am-list-footer{
+    padding: 0;
+  }
+}
+//底部样式
+.listViewFoot{
+  height: 140px;
+  width: 750px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  span{
+    font-family: PingFangSC-Regular;
+    font-size: 22px;
+    color: #CECECE;
+    letter-spacing: 1.26px;
+  }
+  .imgLeft{
+    margin-right: 28px;
+    width: 122px;
+    height: 1px;
+  }
+  .imgRight{
+    margin-left: 28px;
+    width: 122px;
+    height: 1px;
+  }
+}

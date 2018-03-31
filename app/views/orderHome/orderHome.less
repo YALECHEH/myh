@@ -1,0 +1,169 @@
+.orderHome{
+  height: 100%;
+  width: 100%;
+  background: #f3f5fe;
+  overflow: hidden;
+  position: relative;
+  //头部用户信息
+  .orderHomeTop{
+    width: 100%;
+    height: 247px;
+    position: relative;
+    .OHTopImg{
+      width: 100%;
+      height: 247px;
+    }
+    .userInfo{
+      position: absolute;
+      height: 247px;
+      width: 750px;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: rgba(0,0,0,0.45);
+      img{
+        width: 100px;
+        height: 100px;
+      }
+      span{
+        font-family: PingFangSC-Regular;
+        font-size: 24px;
+        color: #FFFFFF;
+        letter-spacing: 0.33px;
+        margin-top: 13px;
+      }
+    }
+  }
+  .myOrder{
+    height: 102px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border-bottom: 1px solid #D9D9D9;/*no*/
+    .myOrderLeft{
+      margin-left: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .myOrderRight{
+      margin-right: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      span{
+        font-family: PingFangSC-Regular;
+        font-size: 28px;
+        color: #666666;
+        //padding-top: 6px;
+       // letter-spacing: 1.61px;
+        //line-height: 46px;
+      }
+    }
+  }
+  //横行文字
+  .orderListText{
+    font-family: PingFangSC-Regular;
+    font-size: 28px;
+    color: #1A1A1A;
+    letter-spacing: 1.61px;
+   // line-height: 50px;
+    margin-left: 10px;
+  }
+  //横向箭头
+  .jiantouImg{
+    width: 50px;
+    height: 50px;
+  }
+  .myOList{
+    width: 750px;
+    height: auto;
+    display: table;
+    border-top: 1px solid #D9D9D9;/*no*/
+    background: #FFFFFF;
+    margin-top: 20px;
+    .myCollectionBody{
+      height: 96px;
+      display: flex;
+      flex: 1;
+      .myCollection{
+        height: 96px;
+        display: flex;
+        margin-left: 30px;
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .myCLeft{
+          display: flex;
+          flex: 1;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+        }
+      }
+    }
+    .myBorder{
+      border-bottom: 1px solid#D9D9D9;/*no*/
+    }
+    .myORight{
+      margin-right: 15px;
+    }
+  }
+  //订单状态模块
+  .orderStatus{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFFFFF;
+    border-bottom: 1px solid#D9D9D9;/*no*/
+    height: 136px;
+    .statusBody{
+      width: 185px;
+      height: 136px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      img{
+        width: 60px;
+        height: 60px;
+      }
+      span{
+        font-family: PingFangSC-Regular;
+        font-size: 26px;
+        color: #666666;
+        letter-spacing: 0.29px;
+        line-height: 26px;
+        margin-top: 5px;
+      }
+      .statusNumber{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        font-family: PingFangSC-Regular;
+        font-size: 24px;
+        color: #FFFFFF;
+        letter-spacing: 0.27px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 15px;
+        background: #FE007E;
+        top: 20px;
+        left: 100px;
+      }
+    }
+  }
+}

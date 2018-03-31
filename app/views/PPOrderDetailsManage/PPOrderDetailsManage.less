@@ -1,0 +1,363 @@
+/*函数*/
+
+
+
+
+
+#root{
+  background: #F4F6FE;
+}
+
+/*样式*/
+.container{
+  background:#F4F6FE;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+}
+
+.orderIdStyle{
+  margin-top: 20px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90px;
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-right: 28px;
+  align-items: center;
+  //border-bottom-width: 1px;
+  border-top:1px solid #D4D4D4;
+  border-bottom: 1px solid #D4D4D4;
+
+}
+
+.orderId{
+  font-size: 28px;
+  color: #1A1A1A;
+  letter-spacing: 1.61px;
+  line-height: 46px;
+  width: 600px;
+  background: white;
+}
+.statusStyle{
+  font-size: 28px;
+  color: #FE007E;
+  letter-spacing: 0.39px;
+  background: white;
+}
+
+.waybillStyle{
+  font-size: 28px;
+  color: #1A1A1A;
+  letter-spacing: 1.61px;
+  line-height: 46px;
+}
+
+.deliveryStyle{
+  font-size: 28px;
+  color: #1A1A1A;
+  letter-spacing: 1.61px;
+  line-height: 46px;
+
+}
+
+.messageStyle{
+  padding-left: 30px;
+  padding-right: 28px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  //height: 212px;
+  border-bottom: 1px solid #D4D4D4;
+  background-color: white;
+
+}
+
+.nameOrPhone{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: white;
+  margin-top: 10px;
+
+
+}
+.nameSty{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  img{
+
+    width: 46px;
+    height: 46px;
+  }
+}
+.nameLB{
+  margin-left: 10px;
+  width: 300px;
+  background: white;
+  font-size: 28px;
+  color: #1A1A1A;
+  letter-spacing: 1.61px;
+  line-height: 46px;
+}
+
+.phoneSty{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  justify-content: flex-end;
+  background: white;
+  img{
+    width: 29px;
+    height: 41px;
+    padding-right: 9px;
+  }
+}
+.phoneLB{
+  width: auto;
+  font-size: 28px;
+  color: #1A1A1A;
+  letter-spacing: 1.61px;
+  line-height: 46px;
+}
+
+
+.addressStyle{
+  background: white;
+  margin-bottom: 20px;
+  margin-top: 8px;
+
+}
+.addressName{
+  word-break:break-all;
+  font-size: 26px;
+  color: #1A1A1A;
+  letter-spacing: 1.5px;
+  line-height: 46px;
+}
+
+.orderCell{
+  width:100%;
+  height:190px;
+  background-color:#FFFFFF;
+  overflow: hidden;
+  //margin-top: 22px;
+}
+
+.orderHead{
+  background-color:red;
+  width: 188px;
+  height:188px;
+  float: left;
+  margin-left: 31px;
+  margin-top: 2px;
+
+  img{
+    width: 188px;
+    height: 188px;
+    background: black;
+  }
+
+}
+
+
+.orderRightContent{
+  margin-top: 36px;
+  background-color:white;
+  margin-left: 28px;
+  word-wrap:break-word;
+  width: 470px;
+  float: left;
+}
+
+.orderNameStyle{
+  color:#262626;
+  font-family:PingFangSC-Regular;
+  font-size: 24px;/*px*/
+  font-weight:900;
+  height: 33px;
+}
+
+.orderPriceStyle{
+  margin-top:8px;
+  font-family:PingFangSC-Regular;
+  font-size: 24px;/*px*/
+  font-weight:900;
+  color:#FE007E;
+  height: 33px;
+}
+
+.orderSizeStyle{
+  margin-top: 9px;
+  font-family:PingFangSC-Regular;
+  font-size: 24px;/*px*/
+  font-weight:900;
+  color:#9B9B9B;
+  height: 33px;
+}
+
+.orderNumberOrSize{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orderNuber{
+  font-size: 24px;
+  color: #9B9B9B;
+  letter-spacing: 1.38px;
+  line-height: 46px;
+
+
+}
+
+.lineView{
+  position: absolute;
+  height: 1px;/*no*/
+  width: 720px;
+  background: #D4D4D4;
+  margin-left: 29px;
+}
+
+
+.payStatusStyle{
+  font-size: 24px;
+  color: #666666;
+  letter-spacing: 1.38px;
+  line-height: 46px;
+
+}
+
+.PPmsg{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+.payStatus{
+  font-size: 28px;
+  color: #1A1A1A;
+  letter-spacing: 1.61px;
+  line-height: 46px;
+  width: 130px;
+
+}
+
+.shopMoneyStyle{
+  margin-top: 20px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90px;
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-right: 28px;
+  align-items: center;
+  //border-bottom-width: 1px;
+  border-top:1px solid #D4D4D4;
+  //border-bottom: 1px solid #D4D4D4;
+
+
+}
+
+.pocketMoney{
+  height: 129px;
+  background: white;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #D4D4D4;
+}
+
+.pocket{
+  height: 128px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 29px;
+  border-bottom: 1px solid #D4D4D4;
+
+}
+.pocketZi{
+  font-size: 40px;
+  color: #1A1A1A;
+  letter-spacing: 1.42px;
+  //padding-right: 0px;
+}
+.pocketM{
+  font-family:PingFang-SC-Medium;
+  font-size: 40px;
+  color: #FE007E;
+  letter-spacing: 1.42px;
+
+}
+.container>div:first-child{
+  background-color: #F4F6FE;
+  padding-bottom: 162px;
+}
+.orderBotton{
+  position: fixed;
+  bottom: 0;
+  height: 162px;
+  background: white;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  border-top:1px solid #D4D4D4;
+}
+
+.delectOrderButton{
+  margin-right: 30px;
+  width: 210px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 12px;
+  border:1px solid;
+  font-size: 32px;
+  color: #FE007E;
+  letter-spacing: -1.03px;
+  line-height: 42px;
+  font-family: PingFangSC-Regular;
+  font-stretch: normal;
+  font-weight: 100;
+}
+.againPayButton{
+  display: flex;
+  margin-right: 29px;
+  width: 210px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  background: #FE007E;
+  border-radius: 12px;
+  font-size: 32px;
+  font-weight: 100;
+  color: #FFFFFF;
+  letter-spacing: -1.03px;
+  line-height: 42px;
+  font-family: PingFangSC-Regular;
+  font-stretch: normal;
+}
+
+
+
+
+
+
+
